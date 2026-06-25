@@ -35,20 +35,42 @@ tags:
 
 ---
 
-<div align="center">
-  <h3>🇵🇰 پاکستان زندہ باد 🇵🇰</h3>
+<!-- ==================== Pakistan Flag & Info Section (GitHub Flawless Responsive) ==================== -->
+<hr>
 
-  <details>
-    <summary><strong>🇵🇰 پاکستان کے بارے میں (کلک کریں)</strong></summary>
-    <p dir="rtl">
-      پاکستان ہمارا پیارا وطن ہے۔ یہ ماڈل اردو زبان کی خدمت کے لیے بنایا گیا ہے تاکہ ہم سب مل کر اپنی زبان کو ٹیکنالوجی میں آگے بڑھا سکیں۔
-    </p>
-    <p>
-      Pakistan is our beloved homeland. This model is built to serve the Urdu language so that together we can advance our language in technology.
-    </p>
-  </details>
+<div align="center">
+  <!-- ہائی کوالٹی آفیشل پاکستان پرچم جو ہر سکرین پر خود بخود فٹ ہو جائے گا -->
+  <img src="https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/pk.svg" width="220" alt="Pakistan Flag" style="max-width: 100%; height: auto; border-radius: 6px; box-shadow: 0 8px 24px rgba(0,0,0,0.3); margin-bottom: 10px;"/>
+  
+  <h2 style="color: #01411C; margin-top: 10px;">🇵🇰 پاکستان زندہ باد 🇵🇰</h2>
 </div>
 
+<!-- الٹرا ماڈرن اور 100% ریسپانسیو اکارڈین جو موبائل اور پی سی پر کبھی نہیں ٹوٹے گا -->
+<details>
+  <summary style="font-size: 1.2em; font-weight: bold; cursor: pointer; padding: 10px; background-color: #f1f5f9; border-radius: 8px; border: 1px solid #cbd5e1; margin: 15px 0;">
+    🇵🇰 پاکستان کے بارے میں (کلک کریں) / About Pakistan (Click to Expand)
+  </summary>
+  
+  <br>
+  
+  <!-- اردو سیکشن (موبائل فرینڈلی رائٹ ٹو لیفٹ) -->
+  <div dir="rtl" align="right" style="background: #f8fafc; padding: 15px; border-right: 5px solid #01411C; border-radius: 4px; margin-bottom: 10px;">
+    <b style="font-size: 1.1em; color: #01411C;">📝 اردو:</b>
+    <p style="font-size: 1.15em; line-height: 1.8; margin-top: 5px; color: #1e293b;">
+      پاکستان ہمارا پیارا وطن ہے۔ یہ ماڈل اردو زبان کی خدمت کے لیے بنایا گیا ہے تاکہ ہم سب مل کر اپنی زبان کو ٹیکنالوجی میں آگے بڑھا سکیں۔
+    </p>
+  </div>
+
+  <!-- انگلش سیکشن (موبائل فرینڈلی لیفٹ ٹو رائٹ) -->
+  <div dir="ltr" align="left" style="background: #f8fafc; padding: 15px; border-left: 5px solid #00D9FF; border-radius: 4px;">
+    <b style="font-size: 1.1em; color: #00D9FF;">📝 English:</b>
+    <p style="font-size: 1rem; line-height: 1.6; margin-top: 5px; color: #334155; font-style: italic;">
+      Pakistan is our beloved homeland. This model is built to serve the Urdu language so that together we can advance our language in technology.
+    </p>
+  </div>
+</details>
+
+<hr>
 ---
 
 ## 🎧 Voice Sample 1 — پہلی آواز
