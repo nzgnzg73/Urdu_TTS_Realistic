@@ -128,3 +128,50 @@ NZG73 کی طرف سے یہ ایک **اردو زبان کا Text-to-Speech (TTS)
 
 ```bash
 pip install nzg73-urdu-tts
+```
+
+---
+```
+# NZG73.py
+import onnxruntime as ort
+import numpy as np
+import json
+import soundfile as sf
+
+# Load the model and config
+model_path = "nomi_voice_v2.onnx"
+config_path = "nomi_voice_v2.onnx.json"
+
+with open(config_path, 'r', encoding='utf-8') as f:
+    config = json.load(f)
+
+session = ort.InferenceSession(model_path)
+
+# Example: text preprocessing (simplified)
+def text_to_ids(text, config):
+    # Implement your phoneme/character mapping here
+    return np.array([1, 2, 3], dtype=np.int64)  # placeholder
+
+input_text = "السلام علیکم"
+input_ids = text_to_ids(input_text, config)
+
+# Run inference
+outputs = session.run(None, {"input": input_ids})
+audio = outputs[0]  # generated audio array
+
+# Save or play audio
+sf.write("output.wav", audio, 22050)
+
+```
+
+---
+
+## 📜 لائسنس – License
+
+> 📜 **لائسنس (Urdu):** یہ ماڈل **NZG73 لائسنس** کے تحت جاری ہے۔ [LICENSE](https://www.google.com/search?q=LICENSE) فائل دیکھیں۔ **غلط استعمال سختی سے ممنوع ہے۔**
+
+> 📜 **License (English):** This model is released under the **NZG73 License**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file. **Misuse is strictly prohibited.**
+
+---
+
+Made with ❤️ by **NZG73** – Promoting Urdu in AI
